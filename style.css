@@ -1,0 +1,677 @@
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #1C1C1C;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+nav .ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+nav .ul p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: #6D6D6D;
+}
+nav .menu1 {
+  display: flex;
+}
+nav .menu1 .ul2 {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+nav .menu1 .ul2 li {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #949494;
+}
+nav .menu1 .ul2 .orange {
+  color: #FFCF7A;
+}
+
+@media (max-width: 518px) {
+  nav {
+    display: block;
+    margin-top: 30px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  .menu1 ul img {
+    width: 20px;
+    height: 20px;
+  }
+}
+.block1 {
+  margin-top: 92px;
+  display: flex;
+}
+.block1 .block01 h1 {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: linear-gradient(226.43deg, #FFFFFF 49.37%, rgba(255, 255, 255, 0) 99.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.block1 .block01 p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #FFCF7A;
+  margin-bottom: 86px;
+}
+.block1 .block01 .block001 {
+  display: flex;
+  text-align: center;
+  gap: 3rem;
+}
+.block1 .block01 .block001 .nol1 {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.block1 .imgi {
+  width: 729px;
+}
+
+.block2 img {
+  height: 1289px;
+  width: 1420px;
+}
+.block2 .block02 {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+.block2 .block02 p {
+  color: white;
+}
+.block2 .block02 .fire {
+  height: 36px;
+  width: 46px;
+}
+.block2 .block02 .block002 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.block3 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+  margin: 200px 0 0 0;
+}
+.block3 .block003 {
+  max-width: 400px;
+}
+.block3 .block003 h2 {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 40px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(233.62deg, #FFFFFF 28.79%, rgba(255, 255, 255, 0.086) 98.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.block3 .block003 p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.block3 .block030 .photo {
+  margin-left: 75px;
+}
+.block3 .block030 p {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.block3 .block030 .blck {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.block3 .block030 .class1 {
+  position: relative;
+  bottom: 180px;
+}
+
+.block4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+}
+
+p, h1, h2, h3 {
+  color: #FFFFFF;
+}
+
+.block5 {
+  display: flex;
+  gap: 7rem;
+  justify-content: center;
+}
+.block5 .part1 {
+  max-width: 571px;
+}
+.block5 .part1 h2 {
+  font-family: LabGrotesque, sans-serif;
+  font-size: 24px;
+}
+.block5 .part1 .part01 {
+  display: flex;
+  gap: 8rem;
+  align-items: end;
+  margin: 20px 0 105px 0;
+}
+.block5 .part1 span {
+  font-size: 18px;
+  color: #757575;
+}
+.block5 .part1 p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+}
+.block5 .part1 .part02 {
+  display: flex;
+  gap: 1rem;
+}
+.block5 .part1 .part02 h2 {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.block5 .part1 .part02 p {
+  font-size: 12px;
+  max-width: 117px;
+}
+.block5 .part1 .part02 .two {
+  margin: 60px 0 0 0;
+  max-width: 319px;
+}
+.block5 .part2 {
+  max-width: 539px;
+}
+.block5 .part2 h2 {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+.block5 .part2 p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+}
+.block5 .part2 img {
+  margin: 30px 0 0 0;
+}
+
+.block6 .twblock {
+  display: flex;
+  justify-content: center;
+  gap: 9.5rem;
+}
+.block6 .twblock h2 {
+  margin: 100px 0 24px 0;
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.block6 .twblock p {
+  margin: 0 0 37px 0;
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: left;
+}
+.block6 .button {
+  text-align: center;
+  margin-top: 49px;
+}
+.block6 .button p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height, or 147% */
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 57px;
+}
+.block6 .button button {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  color: #121212;
+  background: #ECCF94;
+  border-radius: 1px;
+  padding: 14px 64px 16px 64px;
+  margin-bottom: 40px;
+  background-image: url(../images/redor.png);
+}
+.block6 .liss {
+  margin-top: 90px;
+  text-align: center;
+}
+.block6 .liss p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 40px;
+  line-height: 55px;
+  /* identical to box height, or 138% */
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(249.07deg, #FFFFFF 36.17%, rgba(255, 255, 255, 0) 97.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.block6 .liss .imgi {
+  margin-right: 40px;
+}
+.block6 .liss .first {
+  margin-bottom: 90px;
+}
+.block6 p {
+  text-align: center;
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 40px;
+  line-height: 55px;
+  /* identical to box height, or 138% */
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(235.41deg, #FFFFFF 28.47%, rgba(255, 255, 255, 0.18) 91.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.block7 {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.slidecontainer {
+  width: 296px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  border-radius: 5px;
+  background: #e7b520;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: #FFCF7A;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.sss {
+  display: flex;
+  gap: 3rem;
+}
+.sss input {
+  margin-top: 25px;
+}
+
+.test {
+  position: relative;
+  bottom: 16px;
+}
+.test p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  /* identical to box height, or 550% */
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 247px;
+  position: relative;
+  margin: auto;
+  right: 83px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: inherit;
+  width: auto;
+  padding: 16px;
+  margin-top: -28px;
+  color: #FFCF7A;
+  font-weight: none;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.prev {
+  right: 250px;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  left: 250px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1px;
+  width: 9px;
+  margin: 0 2px;
+  background-color: #ffffff;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #FFCF7A;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.test2 p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 45px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 100px 0 0;
+}
+
+.dota {
+  margin-left: 110px;
+}
+
+h6 {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 55px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.func {
+  display: flex;
+  color: white;
+  gap: 4rem;
+}
+.func .ul .loop {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.func .ul .loop .metka {
+  height: 25px;
+  width: 25px;
+  border: 1px solid orange;
+  border-radius: 2px;
+}
+
+li {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 214% */
+  color: #FFFFFF;
+  list-style: none;
+}
+
+.block8 {
+  display: flex;
+  justify-content: center;
+  gap: 12.5rem;
+  margin-top: 68px;
+}
+.block8 p {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.block8 img {
+  margin-top: 13px;
+}
+.block8 .alti {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.block8 .toguz {
+  font-family: "Lab Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  color: #FFCF7A;
+}
+.block8 .endb {
+  width: 254px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  text-align: center;
+  color: #121212;
+  background: #ECCF94;
+  border-radius: 1px;
+  padding: 14px 64px 16px 64px;
+  background-image: url(../images/redor.png);
+}
+
+footer {
+  margin-left: 114px;
+}
+footer h2 {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 40px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(231.91deg, #FFFFFF 37.36%, rgba(255, 255, 255, 0.096) 86.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+footer .final {
+  display: flex;
+  gap: 18rem;
+}
+footer .final p {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #949494;
+}
+footer .final .minod {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+footer .final .minodl {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFCF7A;
+}
+footer .final .dfdf {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid #CEB787;
+  border-radius: 2px;
+  padding: 14px 33px 16px 28px;
+}
+footer .final0 {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin-top: 81px;
+}
+footer .final0 li {
+  display: flex;
+  gap: 1rem;
+}
+footer .final0 li ul {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(109, 109, 109, 0.8745098039);
+}
+footer .final0 p {
+  margin-left: 400px;
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(109, 109, 109, 0.8745098039);
+}/*# sourceMappingURL=style.css.map */

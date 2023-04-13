@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    .ul{
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        p{
+            font-family: 'Lab Grotesque', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            letter-spacing: 0.05em;
+            color: #6D6D6D;
+        }
+    }
+    .menu1{
+        display: flex;
+        .ul2{
+            display: flex;
+            gap: 3rem;
+            align-items: center;
+            li{
+                font-family: 'Lab Grotesque', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #949494;
+            }
+            .orange{
+                color:#FFCF7A;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 518px ){
+    nav{
+        display: block;
+        margin-top: 30px;
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .menu1{
+        ul{
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

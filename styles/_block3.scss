@@ -1,0 +1,55 @@
+.block3{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    margin: 200px 0 0 0;
+    .block003{
+        max-width: 400px;
+        h2{
+            font-family: 'Lab Grotesque',sans-serif;
+            font-style: normal;
+            font-weight: 250;
+            font-size: 40px;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            background: linear-gradient(233.62deg, #FFFFFF 28.79%, rgba(255, 255, 255, 0.086) 98.2%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        p{
+            font-family: 'Lab Grotesque',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 33px;
+            color: #FFFFFF;
+        }
+    }
+    .block030{
+        .photo{
+            margin-left: 75px;
+        }
+        p{
+            font-family: 'Lab Grotesque';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+        .blck{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .class1{
+            position: relative;
+            bottom: 180px
+           
+        }
+    }
+   
+}

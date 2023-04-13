@@ -1,0 +1,110 @@
+footer{
+
+    margin-left: 114px;
+    h2{
+        font-family: 'Lab Grotesque';
+        font-style: normal;
+        font-weight: 250;
+        font-size: 40px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        background: linear-gradient(231.91deg, #FFFFFF 37.36%, rgba(255, 255, 255, 0.096) 86.46%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    .final{
+        display: flex;
+        gap: 18rem;
+        p{
+            font-family: 'Lab Grotesque';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            color: #949494;
+        }
+        .minod{
+            font-family: 'Lab Grotesque';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 22px;
+            color: #FFFFFF;
+        }
+        .minodl{
+            font-family: 'Lab Grotesque';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 36px;
+            color: #FFCF7A;
+        }
+        .dfdf{
+            font-family: 'Lab Grotesque';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            color: #FFFFFF;
+            border: 1px solid #CEB787;
+            border-radius: 2px;
+            padding: 14px 33px 16px 28px ;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .final0{
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+        margin-top: 81px;
+        li{
+            display: flex;
+            gap: 1rem;
+            ul{
+                font-family: 'Lab Grotesque';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                color: #6d6d6ddf;
+
+            }
+        }
+        p{
+            margin-left: 400px;
+            font-family: 'Lab Grotesque';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #6d6d6ddf;
+        }
+    }
+    
+}

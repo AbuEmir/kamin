@@ -1,0 +1,36 @@
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+
+li{
+    list-style: none;
+    
+}
+
+
+body{
+    background-color:#1C1C1C;
+}
+
+
+@import './styles/nav';
+
+@import './styles/block1';
+
+@import './styles/block2';
+
+@import './styles/block3';
+
+@import './styles/block4';
+
+@import './styles/block5';
+
+@import './styles/block6';
+
+@import './styles/block7';
+
+@import './styles/block8';
+
+@import './styles/footer'

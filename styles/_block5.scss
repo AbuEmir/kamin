@@ -1,0 +1,72 @@
+p,h1,h2,h3{
+    color:#FFFFFF
+}
+.block5{
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    .part1{
+        max-width: 571px;
+        h2{
+            font-family: LabGrotesque, sans-serif;
+            font-size: 24px;
+        }
+        .part01{
+            display: flex;
+            gap: 8rem;
+            align-items:end;
+            margin: 20px 0 105px 0;
+        }
+        span{
+            font-size: 18px;
+            color:#757575;
+        }
+        p{
+            font-family: 'Lab Grotesque',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 27px;
+        }
+        .part02{
+            display: flex;
+            gap: 1rem;
+            h2{
+                font-size: 16px;
+                color: #757575;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 12px;
+                max-width: 117px;
+            }
+            .two{
+                margin: 60px 0 0 0;
+                max-width: 319px;
+            }
+        }
+    }
+    .part2{
+        max-width: 539px;
+        h2{
+            font-family: 'Lab Grotesque',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+        }
+        p{ 
+            font-family: 'Lab Grotesque',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 27px;
+        }
+        img{
+            margin: 30px 0 0 0;
+        }
+
+    }
+    
+}
+
